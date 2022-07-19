@@ -35,7 +35,7 @@ variable "aws_region" {
 variable "rancher_api_url" {
   type = string
   description = "URL to where cluster should register"
-  default = "demo-hosted.rancher.cloud"
+  default = "https://demo-hosted.rancher.cloud"
 }
 
 variable "rancher_access_key" {
