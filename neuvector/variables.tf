@@ -29,13 +29,13 @@ variable "aws_secret_key" {
 variable "aws_region" {
   type = string
   description = "AWS Region to deploy to"
-  default = "eu-north-1"
+  default = "eu-west-1"
 }
 
 variable "rancher_api_url" {
   type = string
   description = "URL to where cluster should register"
-  default = "https://demo-hosted.rancher.cloud"
+  default = "https://c0w.madboxlabs.com"
 }
 
 variable "rancher_access_key" {
